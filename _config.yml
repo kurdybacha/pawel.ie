@@ -1,47 +1,19 @@
-# Name of your site (displayed in the header)
-name: pawel about softwre engineering
-
-# Short bio or description (displayed in the header)
-description: Software Engineering
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: 
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  github: kurdybacha/pawel.ie
-  linkedin: https://www.linkedin.com/in/kurdybacha 
-  rss: # just type anything here for a working RSS icon
-  twitter: kurdybacha
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-
-
-# Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# website URL
-# Used for Sitemap.xml and your RSS feed
+title: Software Everything
 url: https://pawel.ie
-title: Software Engineering
+description: >
+
+minima:
+    social-links:
+      email:
+      github: kurdybacha/pawel.ie
+      linkedin: https://www.linkedin.com/in/kurdybacha 
+      twitter: kurdybacha
 
 theme: minima
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude these files from your production _site
 exclude:
