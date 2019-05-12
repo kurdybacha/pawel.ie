@@ -1,12 +1,19 @@
-title: Software Everything
+title: All Things Software
 url: https://pawel.ie
+author: Pawel Kurdybacha
 description: >
 
+twitter_username: kurdybacha
+github_username:  kurdybacha
+linkedin_username: kurdybacha
+
+google_analytics: UA-140013744-1
+
 minima:
-    social-links:
+    social_links:
       email:
-      github: kurdybacha/pawel.ie
-      linkedin: https://www.linkedin.com/in/kurdybacha 
+      github: kurdybacha
+      linkedin: kurdybacha
       twitter: kurdybacha
 
 theme: minima
