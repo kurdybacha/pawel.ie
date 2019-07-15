@@ -22,7 +22,7 @@ I needed docker-compose to run flake8 and tests.
 
 After some back and forth I finally got working `.gitlab-ci.yml`:
 
-```
+```yaml
 image: docker
 services:
   - docker:dind
