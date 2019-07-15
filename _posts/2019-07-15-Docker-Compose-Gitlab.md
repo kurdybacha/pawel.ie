@@ -46,7 +46,7 @@ build:
 
 Without option `-T` after `docker-compose exec` I was getting this error:
 
-```
+```shell
 $ docker-compose exec users flake8 project
 the input device is not a TTY
 ```
@@ -54,7 +54,7 @@ the input device is not a TTY
 Tried to add `export COMPOSE_INTERACTIVE_NO_CLI=1` but that blew up with:
 
 
-```
+```shell
 $ docker-compose exec users flake8 project
 Traceback (most recent call last):
   File "/usr/bin/docker-compose", line 11, in <module>
