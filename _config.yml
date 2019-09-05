@@ -18,6 +18,9 @@ minima:
 
 theme: minima
 
+disqus:
+    shortname: github_comments_with_utterances
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
