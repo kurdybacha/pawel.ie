@@ -1,9 +1,9 @@
-----
+---
 layout: post
 title: Error setting billing account with terraform on Google Cloud Platform
 date: 2020-03-22 14:16
 categories: [GCP, gcloud, terraform]
-----
+---
 
 ## GCP project creation with Terraform
 
