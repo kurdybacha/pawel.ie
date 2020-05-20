@@ -15,7 +15,6 @@ minima:
       linkedin: kurdybacha
 
 theme: minima
-  skin: dark
 
 disqus:
     shortname: github_comments_with_utterances
