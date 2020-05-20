@@ -3,7 +3,6 @@ url: https://pawel.ie
 author: Pawel Kurdybacha
 description: >
 
-twitter_username: kurdybacha
 github_username:  kurdybacha
 linkedin_username: kurdybacha
 
@@ -14,9 +13,9 @@ minima:
       email:
       github: kurdybacha
       linkedin: kurdybacha
-      twitter: kurdybacha
 
 theme: minima
+  skin: dark
 
 disqus:
     shortname: github_comments_with_utterances
